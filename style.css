@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'Fira Sans';
+  font-style: normal;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #333333;
+}
+
+li {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 58px;
+  color: #333333;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main h3 {
+  margin-bottom: 60px;
+}
+
+main p {
+  font-size: 20px;
+}
+
+.container {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-image: url('./assets/img/Фон.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__menu__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
+.download h2 {
+  margin-top: 115px;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.download button {
+  margin-top: 15px;
+  /* padding: 20px 30px; */
+  width: 245px;
+  height: 65px;
+  background: #dba069;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+}
+.header__menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header__menu ul li {
+  color: white;
+  margin-right: 30px;
+}
+
+.cottages {
+  background: rgba(132, 34, 49, 0.05);
+}
+
+.benefits {
+  background-color: #f9f4f4;
+}
+
+.red__square {
+  top: -375px;
+  position: relative;
+  width: 442px;
+  height: 418px;
+  background-color: #842231;
+  z-index: 1;
+  left: 70px;
+}
+
+.about__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__block h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.about__block p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  color: #333333;
+}
+
+.about__block__description {
+  width: 618px;
+}
+
+.about__block__description div,
+.about__block__pic div {
+  margin-top: 60px;
+}
+
+.about__block__pic {
+  width: 484px;
+}
+
+.slider__btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #842231;
+  border: none;
+  color: white;
+}
+
+.cottages__block {
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location__block__title__description {
+  width: 490px;
+}
+
+.benefits__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__block > img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.benefits__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.benefits__item {
+  width: 402px;
+  display: flex;
+  align-items: center;
+}
+
+.benefits__item:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.benefits__item img {
+  margin-right: 18px;
+}
+
+.benefits__item__hor {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.benefits__item_1 {
+  width: 402px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.benefits__item__full {
+  display: flex;
+
+  align-items: center;
+}
+.benefits__item__full img {
+  margin-right: 19px;
+}
+
+.advantages__block {
+  display: flex;
+  align-items: center;
+}
+
+.advantages__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages__description > img {
+  margin-right: 50px;
+}
+
+.advantages__items {
+  display: flex;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 339px;
+  margin-bottom: 40px;
+}
+
+.advantages__item h4 {
+  font-size: 20px;
+}
+
+.advantages__item img {
+  margin-right: 18px;
+}
+
+.construction__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.construction__item {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.construction__item h4 {
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer__menu {
+  display: flex;
+  list-style: none;
+}
+
+.footer__menu li:not(:last-child) {
+  margin-right: 60px;
+}
